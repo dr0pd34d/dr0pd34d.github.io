@@ -18,7 +18,32 @@ Students will first cover the core concepts of adversary simulation, command & c
 ## Course
 
 The course as of today includes the following topics:
-
+- Course introduction
+- Command & Control
+- External Reconnaissance
+- Initial Compromise
+- Host Reconnaissance
+- Host Persistence
+- Host Privilege Escalation
+- Domain Reconnaissance
+- Lateral Movement
+- Credentials & User Impersonation
+- Password Cracking Hints & Tips
+- Session Passing
+- Pivoting
+- Data Protection API
+- Kerberos
+- Active Directory Certificate Services
+- Group Policy
+- Discretionary Access Control Lists
+- MS SQL Servers
+- Domain Dominance
+- Forest & Domain Trusts
+- Local Administrator Password Solution
+- Bypassing Defences
+- Data Hunting & Exfiltration
+- Post-Engagement & Reporting
+- Extending Cobalt Strike
 
 ## Lab
 
