@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link href="https://fonts.googleapis.com/css?family=Merriweather:300|Raleway:400,700" rel="stylesheet">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+<link rel="icon" type="image/x-icon" href="/assets/favicon/favicon.ico">
+<link rel="manifest" href="/assets/favicon/site.webmanifest">
+<link rel="stylesheet" href="/assets/css/style.css">
+<title>Zero-Point Security - Red Team Operator Lab + Certification</title>
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Zero-Point Security - Red Team Operator Lab + Certification | StaySecu.re</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="Zero-Point Security - Red Team Operator Lab + Certification" />
+<meta name="author" content="dr0pd34d" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Red Team Ops is an online course that teaches the basic principals, tools and techniques, that are synonymous with red teaming. Students will first cover the core concepts of adversary simulation, command &amp; control, and how to plan an engagement. They will then learn about each stage of the attack lifecycle from initial compromise, to full domain takeover, data hunting, and data exfiltration. Students will also take various OPSEC concerns into account and learn how to bypass defences such as Windows Defender, AMSI and AppLocker. Finally, they will cover reporting and post-engagement activities." />
+<meta property="og:description" content="Red Team Ops is an online course that teaches the basic principals, tools and techniques, that are synonymous with red teaming. Students will first cover the core concepts of adversary simulation, command &amp; control, and how to plan an engagement. They will then learn about each stage of the attack lifecycle from initial compromise, to full domain takeover, data hunting, and data exfiltration. Students will also take various OPSEC concerns into account and learn how to bypass defences such as Windows Defender, AMSI and AppLocker. Finally, they will cover reporting and post-engagement activities." />
+<link rel="canonical" href="http://localhost:4000/certification/lab/redteam/2022/02/20/zero-point-red-team-operator.html" />
+<meta property="og:url" content="http://localhost:4000/certification/lab/redteam/2022/02/20/zero-point-red-team-operator.html" />
+<meta property="og:site_name" content="StaySecu.re" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-02-20T20:00:00+01:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Zero-Point Security - Red Team Operator Lab + Certification" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"dr0pd34d"},"dateModified":"2022-02-20T20:00:00+01:00","datePublished":"2022-02-20T20:00:00+01:00","description":"Red Team Ops is an online course that teaches the basic principals, tools and techniques, that are synonymous with red teaming. Students will first cover the core concepts of adversary simulation, command &amp; control, and how to plan an engagement. They will then learn about each stage of the attack lifecycle from initial compromise, to full domain takeover, data hunting, and data exfiltration. Students will also take various OPSEC concerns into account and learn how to bypass defences such as Windows Defender, AMSI and AppLocker. Finally, they will cover reporting and post-engagement activities.","headline":"Zero-Point Security - Red Team Operator Lab + Certification","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/certification/lab/redteam/2022/02/20/zero-point-red-team-operator.html"},"url":"http://localhost:4000/certification/lab/redteam/2022/02/20/zero-point-red-team-operator.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+<script type="text/javascript" src="/assets/js/darkmode.js"></script>
+
+</head><body>
+    <main class="container">
+      <section class="about">
+        <div class="about-header condensed">
+          <div class="about-title">
+            <a href="/">
+              
+              <img class="light" src="/assets/images/profile.svg"
+                alt="Steffen Rogge" width="367" />
+              <img class="dark" src="/assets/images/profile.svg"
+                alt="Steffen Rogge" width="367" />
+              
+            </a>
+            <h2 id="title">
+              <a href="/">Steffen Rogge</a>
+            </h2>
+          </div><p class="tagline">Security. Offense</p></div>
+        
+        <ul class="social about-footer condensed"><a href="https://github.com/dr0pd34d" target="_blank">
+            <li>
+              <i class="icon-github-circled"></i>
+            </li>
+          </a><a href="https://www.linkedin.com/in/steffenrogge" target="_blank">
+            <li>
+              <i class="icon-linkedin-squared"></i>
+            </li>
+          </a><a href="https://twitter.com/th3_dr0pd34d" target="_blank">
+            <li>
+              <i class="icon-twitter-squared"></i>
+            </li>
+          </a></ul><p class="about-footer condensed">&copy;
+          2022</p><div class="about-footer condensed">
+          <p>Dark Mode
+            <i class="icon-moon"></i>
+            <label class="switch">
+              <input type="checkbox" class="dark-mode-toggle">
+              <span class="slider round" onclick="toggleDarkMode()"></span>
+            </label>
+          </p>
+        </div>
+      </section>
+      <section class="content">
+        <div class="post-container">
+  <a class="post-link" href="/certification/lab/redteam/2022/02/20/zero-point-red-team-operator.html">
+    <h2 class="post-title">Zero-Point Security - Red Team Operator Lab + Certification</h2>
+  </a>
+  <div class="post-meta">
+    <div class="post-date"><i class="icon-calendar"></i>Feb 20, 2022</div><ul class="post-categories"><li>Certification</li><li>Lab</li><li>RedTeam</li></ul></div>
+  <div class="post">
+    <blockquote>
+  <p>Red Team Ops is an <strong>online course</strong> that teaches the basic principals, tools and techniques, that are synonymous with <strong>red teaming</strong>.<br />
+Students will first cover the core concepts of adversary simulation, command &amp; control, and how to plan an engagement.  They will then learn about each stage of the attack lifecycle from initial compromise, to full domain takeover, data hunting, and data exfiltration.  Students will also take various OPSEC concerns into account and learn how to bypass defences such as Windows Defender, AMSI and AppLocker.  Finally, they will cover reporting and post-engagement activities.</p>
+</blockquote>
+
+<p><strong>Source:</strong> <a href="https://courses.zeropointsecurity.co.uk/courses/red-team-ops">Red Team Operator Course</a></p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">⚠️ WARNING</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">This blog post should summarize my experience with the course and exam.<br />All content is displayed in my own opinion and can vary from person to person.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="course">Course</h2>
+
+<p>The course as of today includes the following topics:</p>
+
+<h2 id="lab">Lab</h2>
+
+<p>The lab is provided as a virtual environment through the provider <a href="https://www.snaplabs.io/">SnapLabs</a>.<br />
+It can be started and stopped in a matter of minutes to use the lab hours efficiently.<br />
+The access to the lab is provided via a web browser and the use of Apache Guacamole as the remote desktop solution.<br />
+Sometimes copy paste was a hit or miss for me and the performance was good as long as the internet connection is stable.</p>
+
+<h2 id="exam">Exam</h2>
+
+<p>The exam has a lab time of 48 hours which can be used throughout 4 days in total.<br />
+To pass the exam, <strong>6 out of 8 flags</strong> have to be collected.<br />
+There is no report needed and I really enjoyed the chain in the exam and would have loved to continue in another environment.<br />
+In my case I was able to collect all 8 flags within 13 hours.<br />
+As soon as the 4 day time frame is over, the <strong>flags are automatically checked</strong> and if correct generate and send you your badge.</p>
+
+<p><img src="/assets/images/zp-coin-red-100.png" alt="Alt text" /></p>
+
+<h2 id="pricing">Pricing</h2>
+
+<table>
+  <tbody>
+    <tr>
+      <td>£365.00</td>
+      <td>Course Only</td>
+    </tr>
+    <tr>
+      <td>£399.00</td>
+      <td>Course + 40 hour lab bundle</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>RastaMouse did an amazing job to make the course even more accessible to someone investing private money by recently adding payment options that include splitting the payment into 4 separate payments.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>4 x £91.25</td>
+      <td>Course Only</td>
+    </tr>
+    <tr>
+      <td>4 x £99.75</td>
+      <td>Course + 40 hour lab bundle</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="final-verdict">Final verdict</h2>
+
+<p>If you are willing to learn and grow in the area of red teaming, I highly recommend this course and certification.<br />
+I had prior infrastructure assessment and active directory experience which made the course a bit easier.<br /></p>
+
+<p><strong>But as the course page states:</strong></p>
+<blockquote>
+  <p>The most successful students are not those with the greater technical knowledge - but those with a passion for learning new skills, solving problems, have great resilience and fortitude!</p>
+</blockquote>
+
+<!-- Links -->
+
+  </div></div>
+
+      </section>
+      <footer class="condensed">
+        <ul class="social about-footer condensed"><a href="https://github.com/dr0pd34d" target="_blank">
+            <li>
+              <i class="icon-github-circled"></i>
+            </li>
+          </a><a href="https://www.linkedin.com/in/steffenrogge" target="_blank">
+            <li>
+              <i class="icon-linkedin-squared"></i>
+            </li>
+          </a><a href="https://twitter.com/th3_dr0pd34d" target="_blank">
+            <li>
+              <i class="icon-twitter-squared"></i>
+            </li>
+          </a></ul><p class="about-footer condensed">&copy;
+          2022</p><div class="about-footer condensed">
+          <p>Dark Mode
+            <i class="icon-moon"></i>
+            <label class="switch">
+              <input type="checkbox" class="dark-mode-toggle">
+              <span class="slider round" onclick="toggleDarkMode()"></span>
+            </label>
+          </p>
+        </div>
+      </footer>
+    </main><!--
+<script type="text/javascript" src="/assets/js/darkmode.js"></script>
+-->
+<script src="/assets/js/simple-jekyll-search.min.js"></script>
+<script src="/assets/js/search.js"></script>
+</body>
+</html>
