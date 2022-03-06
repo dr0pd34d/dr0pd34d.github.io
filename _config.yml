@@ -2,9 +2,8 @@ title: StaySecu.re
 author: dr0pd34d
 email: your-email@domain.com
 description: > # this means to ignore newlines until "show_exerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Security affects anyone. This page will provide you with insights
+  from how to improve your personal security to IT security certifications and red teaming.
 show_excerpts: true # set to true to show excerpts on the homepage
 
 # Minima date format
