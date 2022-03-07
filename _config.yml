@@ -52,6 +52,12 @@ plainwhite:
 #header_pages:
 # - about.md
 
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: "/assets/images/link-image.png"
+
 # Build settings
 #theme: plainwhite
 remote_theme: dr0pd34d/dr0pd34d.github.io
