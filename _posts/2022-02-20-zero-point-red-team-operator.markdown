@@ -3,7 +3,7 @@ layout: post
 title:  "Zero-Point Security - Red Team Operator Lab + Certification"
 date:   2022-02-20 20:00:00 +0100
 categories: Certification Lab RedTeam
-image: "/assets/images/link-image.png"
+image: "/assets/images/title-crto.png"
 ---
 
 > Red Team Ops is an **online course** that teaches the basic principals, tools and techniques, that are synonymous with **red teaming**.<br />
