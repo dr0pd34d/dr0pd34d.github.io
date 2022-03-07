@@ -46,6 +46,9 @@ The course as of today includes the following topics:
 - Post-Engagement & Reporting
 - Extending Cobalt Strike
 
+Personally I knew a bit more about active directory before I started the course but really enjoyed learning a bit more under the hood and **LOVED the opsec considerations** and to hunt for artifacts in the Splunk (now Kibana) instance.
+The content is provided on the Thinkific platform which allows to track your progress and **access even after the exam to the up to date content is provided**.
+
 ## Lab
 
 The lab is provided as a virtual environment through the provider [SnapLabs][snaplabs-overview].<br />
