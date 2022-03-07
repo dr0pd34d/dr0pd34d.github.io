@@ -61,7 +61,6 @@ In my case I was able to collect all 8 flags within 13 hours.<br />
 As soon as the 4 day time frame is over, the **flags are automatically checked** and if correct generate and send you your badge.
 
 ![Alt text](/assets/images/zp-coin-red-100.png)
-<link rel="image_src" href="/assets/images/zp-coin-red-100.png" />
 
 ## Pricing
 
