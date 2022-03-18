@@ -4,11 +4,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <link href="https://fonts.googleapis.com/css?family=Merriweather:300|Raleway:400,700" rel="stylesheet">
-<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
-<link rel="icon" type="image/x-icon" href="/assets/favicon/favicon.ico">
-<link rel="manifest" href="/assets/favicon/site.webmanifest">
+<link rel="icon" type="image/svg+xml" href="assets/favicon/favicon.svg">
+<link rel="icon" type="image/png" href="/assets/favicon/favicon.png">
 <link rel="stylesheet" href="/assets/css/style.css">
 <title>Zero-Point Security - Red Team Operator Lab + Certification</title>
 <!-- Begin Jekyll SEO tag v2.8.0 -->
@@ -22,17 +19,18 @@
 <link rel="canonical" href="http://localhost:4000/certification/lab/redteam/2022/02/20/zero-point-red-team-operator.html" />
 <meta property="og:url" content="http://localhost:4000/certification/lab/redteam/2022/02/20/zero-point-red-team-operator.html" />
 <meta property="og:site_name" content="StaySecu.re" />
+<meta property="og:image" content="http://localhost:4000/assets/images/title-crto.png" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2022-02-20T20:00:00+01:00" />
-<meta name="twitter:card" content="summary" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="http://localhost:4000/assets/images/title-crto.png" />
 <meta property="twitter:title" content="Zero-Point Security - Red Team Operator Lab + Certification" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"dr0pd34d"},"dateModified":"2022-02-20T20:00:00+01:00","datePublished":"2022-02-20T20:00:00+01:00","description":"Red Team Ops is an online course that teaches the basic principals, tools and techniques, that are synonymous with red teaming. Students will first cover the core concepts of adversary simulation, command &amp; control, and how to plan an engagement. They will then learn about each stage of the attack lifecycle from initial compromise, to full domain takeover, data hunting, and data exfiltration. Students will also take various OPSEC concerns into account and learn how to bypass defences such as Windows Defender, AMSI and AppLocker. Finally, they will cover reporting and post-engagement activities.","headline":"Zero-Point Security - Red Team Operator Lab + Certification","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/certification/lab/redteam/2022/02/20/zero-point-red-team-operator.html"},"url":"http://localhost:4000/certification/lab/redteam/2022/02/20/zero-point-red-team-operator.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"dr0pd34d"},"dateModified":"2022-02-20T20:00:00+01:00","datePublished":"2022-02-20T20:00:00+01:00","description":"Red Team Ops is an online course that teaches the basic principals, tools and techniques, that are synonymous with red teaming. Students will first cover the core concepts of adversary simulation, command &amp; control, and how to plan an engagement. They will then learn about each stage of the attack lifecycle from initial compromise, to full domain takeover, data hunting, and data exfiltration. Students will also take various OPSEC concerns into account and learn how to bypass defences such as Windows Defender, AMSI and AppLocker. Finally, they will cover reporting and post-engagement activities.","headline":"Zero-Point Security - Red Team Operator Lab + Certification","image":"http://localhost:4000/assets/images/title-crto.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/certification/lab/redteam/2022/02/20/zero-point-red-team-operator.html"},"url":"http://localhost:4000/certification/lab/redteam/2022/02/20/zero-point-red-team-operator.html"}</script>
 <!-- End Jekyll SEO tag -->
 
 
 <script type="text/javascript" src="/assets/js/darkmode.js"></script>
-
 </head><body>
     <main class="container">
       <section class="about">
@@ -40,9 +38,9 @@
           <div class="about-title">
             <a href="/">
               
-              <img class="light" src="/assets/images/profile.svg"
+              <img class="light" src="/assets/images/staysecure_logo.svg"
                 alt="Steffen Rogge" width="367" />
-              <img class="dark" src="/assets/images/profile.svg"
+              <img class="dark" src="/assets/images/staysecure_logo.svg"
                 alt="Steffen Rogge" width="367" />
               
             </a>
@@ -105,6 +103,37 @@ Students will first cover the core concepts of adversary simulation, command &am
 <h2 id="course">Course</h2>
 
 <p>The course as of today includes the following topics:</p>
+<ul>
+  <li>Course introduction</li>
+  <li>Command &amp; Control</li>
+  <li>External Reconnaissance</li>
+  <li>Initial Compromise</li>
+  <li>Host Reconnaissance</li>
+  <li>Host Persistence</li>
+  <li>Host Privilege Escalation</li>
+  <li>Domain Reconnaissance</li>
+  <li>Lateral Movement</li>
+  <li>Credentials &amp; User Impersonation</li>
+  <li>Password Cracking Hints &amp; Tips</li>
+  <li>Session Passing</li>
+  <li>Pivoting</li>
+  <li>Data Protection API</li>
+  <li>Kerberos</li>
+  <li>Active Directory Certificate Services</li>
+  <li>Group Policy</li>
+  <li>Discretionary Access Control Lists</li>
+  <li>MS SQL Servers</li>
+  <li>Domain Dominance</li>
+  <li>Forest &amp; Domain Trusts</li>
+  <li>Local Administrator Password Solution</li>
+  <li>Bypassing Defences</li>
+  <li>Data Hunting &amp; Exfiltration</li>
+  <li>Post-Engagement &amp; Reporting</li>
+  <li>Extending Cobalt Strike</li>
+</ul>
+
+<p>Personally I knew a bit more about active directory before I started the course but really enjoyed learning a bit more under the hood and <strong>LOVED the opsec considerations</strong> and to hunt for artifacts in the Splunk (now Kibana) instance.
+The content is provided on the Thinkific platform which allows to track your progress and <strong>access even after the exam to the up to date content is provided</strong>.</p>
 
 <h2 id="lab">Lab</h2>
 
